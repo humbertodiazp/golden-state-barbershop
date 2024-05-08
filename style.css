@@ -63,7 +63,6 @@ nav a {
     color: white;
     padding-top:40px;
     padding-left: 10vw;
-    max-width: min-content;
 }
 
 
@@ -106,7 +105,7 @@ nav a {
 
 .book-now {
     display: inline-block;
-    background-color: red;
+    background-color: rgb(165, 10, 10);
     color: white;
     font-weight: 200;
     padding: 10px 20px;
