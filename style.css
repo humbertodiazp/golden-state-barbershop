@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 203, 197);
+    position: relative;
+}
+
+header {
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(101, 97, 97);
+    position: fixed;
+    top: 0;
+    left: 0; /* Set navbar to start from the left */
+    width: 100%; /* Make navbar full width */
+    z-index: 1000;
+    
+}
+.transparent-nav {
+    background-color: rgba(17, 16, 16, 0.6);
+    transition: background-color 0.5s;
+}
+
+nav img {
+    width: 80px;
+    overflow-y: visible;
+    margin-left: 20vw; /* Adjust margin to create a gap */
+    margin-right: 12vw;
+    margin-bottom: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+
+
+.hero-image {
+    background-image: url('goldenstateb.jpeg');
+    background-size: cover;
+    background-position: center top 5%; /* Adjust this value to position the desired portion */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top:40px;
+    padding-left: 10vw;
+    max-width: min-content;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: right;
+    height: 60vh;
+    text-shadow: 10px;
+    margin-left: 8vw;
+    padding-bottom: 50px;
+
+
+}
+
+.vibe-section {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.quote {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin:  auto;
+    max-width: 700px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: 41 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.quote p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.book-now {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-weight: 200;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
